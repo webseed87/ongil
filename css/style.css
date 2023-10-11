@@ -719,6 +719,9 @@ height: 600px;
   .copyright ul li,.copyright p  {
     font-size: 0.8rem;
   }
+  .fullpage-section {
+    display: none;
+  }
 }
 .panel {
 height: 100vh;

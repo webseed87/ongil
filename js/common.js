@@ -1,6 +1,5 @@
 
 $(document).ready(function(){
-    if($(window).width() < 1024){ $('#fullpage').removeAttr('id'); }
 
     // 메인슬라이더
 const swiper = new Swiper(".swiper-container", {
@@ -86,11 +85,13 @@ $(document).ready(function() {
 });
 });
 
-$('#fullpage').fullpage({
-    
-    //options here
 
-    navigation: false,
-    fixedElements: '#header',
-    normalScrollElements: '.footer',
-});
+if (window.innerWidth > 720) {
+    $('#fullpage').fullpage({
+        navigation: false,
+        fixedElements: '#header',
+        normalScrollElements: '.footer',
+    });
+  } else {
+    fullpage_api.destroy('all');
+  }
