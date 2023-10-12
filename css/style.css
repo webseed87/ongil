@@ -149,7 +149,7 @@ margin-top: 50px;
 }
 
 #header  .navigation li.menu{
-  display: block;
+display: block;
 margin-right: 6vw;
 font-family: 'SpoqaB';
 text-align: center;
@@ -160,7 +160,7 @@ font-size: 1vw;
 line-height: 1vw;
 }
 #header  .navigation li.menu a:hover{
-  color: #F89734;
+color: #F89734;
 }
 #header  .navigation li.menu:last-child{
 margin-right:0;
@@ -170,46 +170,46 @@ margin-right:0;
 display: none;
 }
 #header .navigation li.menu.active .sub_menu li{
-  line-height: 1;
-  padding: 10px 22px;
+line-height: 1;
+padding: 10px 22px;
 }
 #header .navigation li.menu.active  .sub_menu li a{
-  color: #666;
-  font-family: 'SpoqaR';
-  font-size: 0.8vw;
+color: #666;
+font-family: 'SpoqaR';
+font-size: 0.8vw;
 }
 #header  .navigation li.menu.active  .sub_menu li a:hover{
-  color: #F89734;
+color: #F89734;
 }
 #header .navigation li.menu.active  .sub_menu{
-  display: block;
-  position: absolute;
-  top: 30px;
-  margin-left: -30px;
-  background-color: #fff;
-  border-radius: 10px;
-  width: 8vw;
+display: block;
+position: absolute;
+top: 30px;
+margin-left: -30px;
+background-color: #fff;
+border-radius: 10px;
+width: 8vw;
 }
 /* 모바일 메뉴 부분 */
 
 #header .menu-starter{
-  display: none;
+display: none;
 }
 @media (max-width:1200px){
-  #header .menu-starter{
-    display: block;
-    margin-top: 30px;
-  }
-  #header .menu-starter span {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 6px;
-  transition: .4s;
+#header .menu-starter{
+display: block;
+margin-top: 30px;
+}
+#header .menu-starter span {
+display: block;
+width: 24px;
+height: 2px;
+background-color: #fff;
+margin-bottom: 6px;
+transition: .4s;
 }
 #header .menu-starter span:last-child {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 #header .navigation {
 visibility: hidden;
@@ -219,12 +219,12 @@ transition: transform 0.5s;
 }
 
 #header.menuing .menu-starter span:first-child {
-  transform: translate(0, 3.5px) rotate(45deg);
-  background-color: #333;
+transform: translate(0, 3.5px) rotate(45deg);
+background-color: #333;
 }
 #header.menuing .menu-starter span:last-child {
-  transform: translate(0, -3.5px) rotate(-45deg);
-  background-color: #333;
+transform: translate(0, -3.5px) rotate(-45deg);
+background-color: #333;
 }
 #header.menuing .navigation {
 background-color: #fafafa;
@@ -242,56 +242,56 @@ transform: translateX(0);
 
 }
 #header.menuing .navigation li.menu:first-child{
-  margin-top: 80px;
+margin-top: 80px;
 }
 
 #header.menuing .navigation li.menu{
-  width: 30%;
-  line-height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
+width: 30%;
+line-height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
 
 }
 #header.menuing .navigation li.menu a{
-  color: #333;
-  font-size: 2vw;
+color: #333;
+font-size: 2vw;
 }
 #header.menuing  .navigation li.menu.active{
-  background-color: #F89734;
+background-color: #F89734;
 }
 #header.menuing  .navigation li.menu.active a{
- color: #fff;
+color: #fff;
 }
 #header.menuing  .navigation li.menu.active .sub_menu li{
-  line-height: 50px;
-  padding: 0px 0px;
-  box-sizing: border-box;
-  border-bottom: 1px solid #ccc;
-  text-align: left;
-  padding-left: 30px;
+line-height: 50px;
+padding: 0px 0px;
+box-sizing: border-box;
+border-bottom: 1px solid #ccc;
+text-align: left;
+padding-left: 30px;
 }
 #header.menuing  .navigation li.menu.active .sub_menu li:last-child{
-  border-bottom: none;
+border-bottom: none;
 }
 #header.menuing  .navigation li.menu.active  .sub_menu li a{
-  color: #666;
-  font-family: 'SpoqaR';
-  font-size: 1.6vw;
+color: #666;
+font-family: 'SpoqaR';
+font-size: 1.6vw;
 
 }
 #header.menuing   .navigation li.menu.active  .sub_menu li a:hover{
-  color: #F89734;
+color: #F89734;
 
 }
 #header.menuing  .navigation li.menu.active  .sub_menu{
-  display: block;
-  position: absolute;
-  right:0px;
-  width: 70%;
-  top: 80px;
-  height: 100vh;
+display: block;
+position: absolute;
+right:0px;
+width: 70%;
+top: 80px;
+height: 100vh;
 }
 }
 
@@ -319,6 +319,17 @@ top: 50%;
 transform: translate(-50%, -50%);
 opacity: 1;
 }
+.main_swiper .videoimg{
+  display: block;
+  min-height: 100vh;
+  min-width: 100vw;
+  object-fit: fill;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  }
 .main_swiper .main_img{
 position: relative;
 width: 100%;
@@ -334,7 +345,7 @@ position: absolute;
 left: 0;
 top: 0;
 background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,4) 100%);
 z-index: 10;
 }
 .main_swiper .content{
@@ -350,13 +361,28 @@ text-align: center;
 color: #F89734;
 font-family: 'SpoqaB';
 font-size: 5vw;
+padding: 0 300px;
+transform: translate(0,50px); 
+opacity: 0; 
+transition: transform 1s, opacity 1s;  
+transition-delay: .2s;
 }
 .main_swiper .content p.sub_tit{
 color: #ccc;
 font-size: 3.7vw;
 line-height: 5vw;
 margin-top: 3vw;
+transform: translateY(40px); 
+opacity: 0; 
+transition: transform 1s, opacity 1s; 
 }
+.main_swiper .swiper-slide-active .content p.sub_tit{
+transform: translateY(0); 
+opacity: 1; }
+.main_swiper  .swiper-slide-active .content p.tit{ 
+transform: translate(0,0); 
+opacity: 1; }
+
 .main_swiper .control {
 position: absolute;
 left: 0;
@@ -399,7 +425,7 @@ display: none;
 position: static;
 float: left;
 margin-top: 5px;
-width: 120px;
+width: 140px;
 }
 
 .main_swiper .control .swiper-pagination:after {
@@ -440,7 +466,7 @@ border-radius: 10px;
 position: absolute;
 left: 0;
 top: 0;
-animation: slideon 7s linear;
+animation: slideon 5s linear;
 animation-fill-mode: forwards;
 }
 
@@ -553,10 +579,10 @@ padding: 20px;
 font-size: 1vw;
 }
 #business .content .more:hover{
-  background-color: #F89734;
-  color: #fff;
+background-color: #F89734;
+color: #fff;
 
-  }
+}
 
 #business .business_nav{
 position: absolute;
@@ -584,11 +610,11 @@ cursor: pointer;
 color: #fff;
 }
 #business .business_nav ul.field .icon{
-  position: absolute;
-  right: 60px;
+position: absolute;
+right: 60px;
 }
 #business .business_nav ul.field li:hover .icon path {
-  stroke: #fff; 
+stroke: #fff; 
 }
 /* 하단 카피라이터 */
 
@@ -636,6 +662,9 @@ box-sizing: border-box;
 #business .content {
 width: 100%;
 }
+.main_swiper .content p.tit{
+padding: 0 0px;
+}
 }
 
 @media (max-width:1280px){
@@ -651,21 +680,21 @@ width: 100%;
 flex-direction: row;
 }
 #business .business_nav ul.field li {
-  width: 33.33vw;
-  justify-content: center;
-  flex-wrap:wrap;
+width: 33.33vw;
+justify-content: center;
+flex-wrap:wrap;
 }
 #business .business_nav ul.field li:first-child {
-  border-left: none;
+border-left: none;
 }
 #business .business_nav ul.field .icon{
-  width: 100%;
-  position: relative;
-  top: 0;
-  right: 0px;
+width: 100%;
+position: relative;
+top: 0;
+right: 0px;
 }
 #business .business_nav ul.field li{
-  font-size: 1rem;
+font-size: 1rem;
 }
 #business .content {
 margin-top: 13vh;
@@ -686,42 +715,42 @@ margin-right: 20px;
 }
 }
 @media (max-width:720px){
-  .business_item1.active .consulting,  .business_item2.active .system,
+.business_item1.active .consulting,  .business_item2.active .system,
 .business_item3.active .maintenance{
 height: 600px;
 }
 #business .business_nav ul.field li {
-  height: 20vh;
-  padding: 0;
-  }
-  #header.menuing .navigation {
-    width: 100vw;
-  }
-  .main_swiper .content p.tit {
-  font-size: 3rem;
-  }
-  .main_swiper .content p.sub_tit{
-    font-size: 2rem;
-    line-height: 2.3rem;
-  }
-  #business .content .title {
-    font-size: 2.4rem;
-  }
-  #business .content .tit {
-    width: 100%;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-  #business .content .more,#header.menuing .navigation li.menu a,#header.menuing .navigation li.menu.active .sub_menu li a {
-    
-    font-size: 1rem;
-  }
-  .copyright ul li,.copyright p  {
-    font-size: 0.8rem;
-  }
-  .fullpage-section {
-    display: none;
-  }
+height: 20vh;
+padding: 0;
+}
+#header.menuing .navigation {
+width: 100vw;
+}
+.main_swiper .content p.tit {
+font-size: 3rem;
+}
+.main_swiper .content p.sub_tit{
+font-size: 2rem;
+line-height: 2.3rem;
+}
+#business .content .title {
+font-size: 2.4rem;
+}
+#business .content .tit {
+width: 100%;
+font-size: 1.2rem;
+line-height: 1.5rem;
+}
+#business .content .more,#header.menuing .navigation li.menu a,#header.menuing .navigation li.menu.active .sub_menu li a {
+
+font-size: 1rem;
+}
+.copyright ul li,.copyright p  {
+font-size: 0.8rem;
+}
+.fullpage-section {
+display: none;
+}
 }
 .panel {
 height: 100vh;
